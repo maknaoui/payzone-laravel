@@ -12,3 +12,4 @@ class PayzonePayment extends Facade {
    */
   protected static function getFacadeAccessor() { return 'payzonepayment'; }
  
+}
