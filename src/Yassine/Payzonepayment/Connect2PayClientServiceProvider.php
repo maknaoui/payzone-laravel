@@ -21,7 +21,7 @@ class Connect2PayClientServiceProvider extends ServiceProvider {
             return new Connect2PayClient();
         });
         $this->publishes([
-            __DIR__.'/../../config/configuration.php' => config_path('configuration.php'),
+            __DIR__.'/../../config/configuration.php' => config_path('payzonelaravel.php'),
         ]);
     }
     /**

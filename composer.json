@@ -1,6 +1,6 @@
 {
     "name": "maknaoui/payzone-laravel",
-    "description": "payzone-laravel is simple package help you process direct credit card payments, stored credit card payments and PayPal account payments with your L5 projects.",
+    "description": "payzone-laravel is simple package help you process direct credit card payments, stored credit card payments with your L5 projects.",
     "license": "None",
     "authors": [
         {
