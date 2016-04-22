@@ -3,7 +3,7 @@ namespace Maknaoui\PayzoneLaravel\Facades;
  
 use Illuminate\Support\Facades\Facade;
  
-class PayzonePayment extends Facade
+class PayzoneLaravel extends Facade
 {
 
   /**
@@ -13,7 +13,7 @@ class PayzonePayment extends Facade
    */
   protected static function getFacadeAccessor()
   {
-    return 'payzonepayment';
+    return 'payzonelaravel';
   }
 
 }

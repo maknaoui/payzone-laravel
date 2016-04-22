@@ -21,7 +21,7 @@ class Connect2PayClientServiceProvider extends ServiceProvider {
             return new PaypalPayment();
         });
         $this->publishes([
-            __DIR__.'/../../config/payzone_payment.php' => config_path('payzone_payment.php'),
+            __DIR__.'/../../config/configuration.php' => config_path('configuration.php'),
         ]);
     }
     /**
@@ -31,6 +31,6 @@ class Connect2PayClientServiceProvider extends ServiceProvider {
      */
     public function provides()
     {
-        return array('payzone_payment');
+        return array('connect2payclient');
     }
 }
