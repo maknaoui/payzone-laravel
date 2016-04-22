@@ -1,5 +1,5 @@
 <?php
-namespace Yassine\Payzonepayment;
+namespace Maknaoui\PayzoneLaravel;
 use Illuminate\Support\ServiceProvider;
 
 class Connect2PayClientServiceProvider extends ServiceProvider {

@@ -1,5 +1,5 @@
 <?php
-namespace Yassine\Payzonepayment;
+namespace Maknaoui\PayzoneLaravel;
 /**
  * Validation class
  *

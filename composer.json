@@ -15,8 +15,8 @@
         "ext-json": "*"
     },
     "autoload": {
-        "psr-0": {
-            "maknaoui\\payzone-laravel": "src/"
+        "psr-4": {
+            "Maknaoui\\PayzoneLaravel\\": "src/Yassine/Payzonepayment/"
         }
     },
     "minimum-stability": "dev"

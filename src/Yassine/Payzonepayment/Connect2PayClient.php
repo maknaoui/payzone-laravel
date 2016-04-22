@@ -1,7 +1,7 @@
 <?php
-namespace Yassine\Payzonepayment;
+namespace Maknaoui\PayzoneLaravel;
 
-use Yassine\Payzonepayment\C2PValidate;
+use Maknaoui\PayzoneLaravel\C2PValidate;
 
 class Connect2PayClient {
   /**
