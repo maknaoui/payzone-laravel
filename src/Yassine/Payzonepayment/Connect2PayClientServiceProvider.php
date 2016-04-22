@@ -18,7 +18,7 @@ class Connect2PayClientServiceProvider extends ServiceProvider {
     {
         $this->app['connect2payclient'] = $this->app->share(function($app)
         {
-            return new PaypalPayment();
+            return new Connect2PayClient();
         });
         $this->publishes([
             __DIR__.'/../../config/configuration.php' => config_path('configuration.php'),
