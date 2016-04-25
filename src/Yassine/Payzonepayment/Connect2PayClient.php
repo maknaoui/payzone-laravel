@@ -1380,9 +1380,10 @@ class Connect2PayClient {
     }
 
     foreach ($this->fieldsValidate as $field => $method) {
-      if (!C2PValidate::isEmpty($this->{$field}) AND !call_user_func(array('C2PValidate', $method), $this->{$field}))
+      if (!C2PValidate::isEmpty($this->{$field}) AND !call_user_func(array('\Maknaoui\PayzoneLaravel\C2PValidate', $method), $this->{$field}))
         $returnError[] = $field . ' = ' . $this->{$field};
     }
+
 
     return $returnError;
   }
